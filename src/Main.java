@@ -19,7 +19,7 @@ public class Main {
                             String krestniJmeno = casti[1]; // Křestní jméno
 
                             // Kontrola podmínek
-                            if ("Ivana".equals(krestniJmeno) && idZakaznika < 500) {
+                            if ("Ivana".equals(krestniJmeno) && idZakaznika < 50) {
                                 System.out.println("ID: " + idZakaznika +" ; "+ "Křestní jméno: " +krestniJmeno);
                             }
                         }
